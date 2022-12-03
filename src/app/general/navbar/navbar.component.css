@@ -1,0 +1,11 @@
+
+nav {
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.nav-item a {
+    font-size: x-large;
+}
