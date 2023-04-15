@@ -5,13 +5,17 @@ import { GeneralRoutingModule } from './general-routing.module';
 import { GeneralComponent } from './general.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewsComponent } from '../news/news.component';
+import { MunicipalidadComponent } from './municipalidad/municipalidad.component';
 
 
 @NgModule({
   declarations: [
     GeneralComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    NewsComponent,
+    MunicipalidadComponent
   ],
   imports: [
     CommonModule,

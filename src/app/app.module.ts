@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { GeneralModule } from './general/general.module';
 import {HttpClientModule} from '@angular/common/http';
 import { SecurityModule } from './security/security.module';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
